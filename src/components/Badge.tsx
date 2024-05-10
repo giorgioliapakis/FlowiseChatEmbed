@@ -47,14 +47,14 @@ export const Badge = (props: Props) => {
       made with ❤️ by
       <a
         ref={liteBadge}
-        href={'https://giorgio.co'}
+        href={'https://wibci.com.au'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> giorgio</span>
+        <span> wibci</span>
       </a>
     </span>
   );
